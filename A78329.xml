@@ -1,0 +1,945 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A brief and perspicuous manuduction to practical divinity, by way of question and answer wherein the chief principles of religion are so explained as to infer a good life from them.</title>
+            <author>B. C.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1670</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 55 KB of XML-encoded text transcribed from 22 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2013-12">2013-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A78329</idno>
+            <idno type="STC">Wing C13A</idno>
+            <idno type="STC">ESTC R229568</idno>
+            <idno type="EEBO-CITATION">99895460</idno>
+            <idno type="PROQUEST">99895460</idno>
+            <idno type="VID">152859</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A78329)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 152859)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 2328:5)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A brief and perspicuous manuduction to practical divinity, by way of question and answer wherein the chief principles of religion are so explained as to infer a good life from them.</title>
+                  <author>B. C.</author>
+               </titleStmt>
+               <extent>40 p.   </extent>
+               <publicationStmt>
+                  <publisher>printed by J. R. for Henry Eversden, under the Crown Tavern in West-Smithfield, next Duck-lane end,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1670.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Ldw copy tightly bound.</note>
+                  <note>Reproduction of original in the Dr. Williams' Library, London, England.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Devotional literature --  Early works to 1800.</term>
+               <term>Theology, Practical --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-10</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-10</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-01</date>
+            <label>Geremy Carnes</label>Sampled and proofread</change>
+         <change>
+            <date>2013-01</date>
+            <label>Geremy Carnes</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2013-02</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:152859:1" rendition="simple:additions"/>
+            <p>A Brief and Perſpicuous MANUDUCTION TO Practical Divinity, By way of <hi>Queſtion</hi> and <hi>Anſwer:</hi> Wherein The chief Principles of Religion are ſo explained as to infer a good life from them.</p>
+            <q>If ye know theſe things, happy are ye if ye do them. <bibl>Joh. 13.17.</bibl>
+            </q>
+            <q>
+               <p>Reſtat, ut his Ego me ipſe regam ſoler<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> Elementis.</p>
+               <p>Sunt certa piacula, quae te Ter purè lecto poterunt recreare libello.</p>
+               <bibl>Horat. Ep. 1.</bibl>
+            </q>
+            <p>
+               <hi>London,</hi> Printed by <hi>J. R.</hi> for <hi>Henry Everſden,</hi> under the Crown Tavern in <hi>Weſt-Smithfield,</hi> next Duck-lane end, 1670.</p>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:152859:2"/>
+            <pb facs="tcp:152859:2"/>
+            <opener>
+               <salute>Courteous Reader,</salute>
+            </opener>
+            <p>THe method of the enſuing Ma<g ref="char:EOLhyphen"/>nuduction to the underſtand<g ref="char:EOLhyphen"/>ing practice of true Religion, is ſo undoubtedly uſeful that it needs no other recommendation than the naked deſcription of it.</p>
+            <p>
+               <q rend="margQuotes">It leads us firſt to the profitable knowledge of our ſelves, and there<g ref="char:EOLhyphen"/>by <hi>2.</hi> of God who made us, with the end for which he made us, and ſo on <hi>3.</hi> to the revelation of his mind and wit in the Holy Scriptures, direct<g ref="char:EOLhyphen"/>ing us to that end, wherein <hi>4.</hi> we learn more dictinctly the ſtate of Man; <hi>1.</hi> as created, and <hi>2.</hi> fal<g ref="char:EOLhyphen"/>len, and <hi>3.</hi> reſtored by Jeſus Chriſt; who this Jeſus Chriſt is, what he hath done for us, what benefits we may expect from him, and by him; what conditions are to be obſerved by us for the obtaining of thoſe be<g ref="char:EOLhyphen"/>nefits; what help muſt enable us, and what means we muſt uſe in or<g ref="char:EOLhyphen"/>der to the right diſcharge of thoſe conditions; and laſtly, how ſevere a penalty we incur by a careleſs and
+<pb facs="tcp:152859:3"/>contemptuous neglect of thoſe mean<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> and conditions.</q>
+            </p>
+            <p>The propounding of which things by way of queſtion and anſwer in a plain and familiar dreſs, may add much be<g ref="char:EOLhyphen"/>nefit to the ignorant, and render the attention to each particular more de<g ref="char:EOLhyphen"/>liberate. I have nothing to ſuper<g ref="char:EOLhyphen"/>adde, unleſs it be to tell thee that the firſt draught and platform of this Ca<g ref="char:EOLhyphen"/>techiſm is known to have been marked out in moſt of its greater lines by a Learned and Reverend man now with God, and then to pray, that as it is here finiſhed, filled up, and expoſed to thy view, it may prove (as 'tis in<g ref="char:EOLhyphen"/>tended) an effectual advancement of thy progreſs in a well-grounded faith and piety, and ſo conduct thee at laſt to that eternal happineſs which is the undoubted reward of a Godly and Chriſtian life. This now, Courteous Reader, is the <hi>unfeigned wiſh</hi> of</p>
+            <closer>
+               <signed>Thy devoted friend and ſervant in our <hi>common Saviour B. C.</hi>
+               </signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="question_and_answer">
+            <pb n="5" facs="tcp:152859:3"/>
+            <head>A Manuduction to Pra<g ref="char:EOLhyphen"/>ctical Divinity.</head>
+            <p>Q. <hi>WHat art</hi> thou, O man?
+<note place="margin">The natural knowledge of our ſelves.</note>
+            </p>
+            <p>
+               <hi>A.</hi> I am a <hi>reaſonable creature.</hi>
+            </p>
+            <p>Q. <hi>What mean you when you ſay you are</hi> reaſonable?</p>
+            <p>
+               <hi>A.</hi> I mean, that I am <hi>above a beaſt,</hi>
+               <note place="margin">Reaſona<g ref="char:EOLhyphen"/>ble.</note> and have ſomething within me <hi>more no<g ref="char:EOLhyphen"/>ble than my body,</hi> whereby I am enabled to act with <hi>underſtanding</hi> and <hi>choice,</hi> knowing <hi>what</hi> I do, and <hi>why.</hi>
+            </p>
+            <p>Q. <hi>I deſire to ſee all along, how your knowledge leads to practice; tell me there<g ref="char:EOLhyphen"/>fore,</hi> What learn you from your being reaſonable?</p>
+            <p>
+               <hi>A.</hi> I learn, <hi>never to attempt or do a<g ref="char:EOLhyphen"/>ny thing unworthy of my ſelf,</hi> and of which I cannot give a <hi>good reaſon</hi> or ac<g ref="char:EOLhyphen"/>count to my ſelf or others.</p>
+            <pb n="6" facs="tcp:152859:4"/>
+            <p>Q. <hi>You ſaid you was a</hi> creature, <hi>wh<gap reason="illegible" resp="#MURP" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> mean you by that?</hi>
+            </p>
+            <p>
+               <hi>A.</hi>
+               <note place="margin">Creature.</note> I mean, that I <hi>once was not,</hi> w<gap reason="illegible" resp="#MURP" extent="2 letters">
+                  <desc>••</desc>
+               </gap> 
+               <hi>made,</hi> and am <hi>preſerved</hi> by <hi>another,</hi> 
+               <gap reason="illegible" resp="#MURP" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> that <hi>I derived my being from, and hold <gap reason="illegible" resp="#MURP" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> of another.</hi>
+            </p>
+            <p>Q. <hi>What learn you</hi> hence?</p>
+            <p>
+               <hi>A.</hi> I learn, that I ought to live co<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>ſtantly in <hi>dependance</hi> upon and <hi>ackno<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <g ref="char:EOLunhyphen"/>ledgment</hi> of <hi>him</hi> that <hi>made</hi> and <hi>mai<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <g ref="char:EOLhyphen"/>tains</hi> me.</p>
+            <p>Q. Who <hi>is it that</hi> made <hi>and</hi> preſerv<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <hi>you?</hi>
+            </p>
+            <p>
+               <hi>A. God.</hi>
+            </p>
+            <p>Q <hi>What is God?</hi>
+               <note place="margin">Of God in his nature and attri<g ref="char:EOLhyphen"/>butes.</note>
+            </p>
+            <p>
+               <hi>A.</hi> The <hi>moſt perfect Being</hi> and <hi>Fou<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <g ref="char:EOLhyphen"/>tain of all other things.</hi>
+            </p>
+            <p>Q. <hi>But what more particular</hi> deſcrip<g ref="char:EOLhyphen"/>tion <hi>can you give me of him?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> God is <hi>a Being wholly ſpiritua<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </hi> [and <hi>therein above my ſelf</hi> who am <hi>ſpir<gap reason="illegible" resp="#MURP" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>
+               </hi> and <hi>body] moſt good and gracious, mo<gap reason="illegible" resp="#MURP" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> holy, moſt wiſe, moſt powerful, eternal an<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> infinite in all perfections [and therein a<g ref="char:EOLhyphen"/>bove all ſpirits.]</hi>
+            </p>
+            <p>Q. <hi>That I may ſee you underſtan<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> your ſelf in what you have now ſpoken, an<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> ſay not things by rote only, as many do, <gap reason="illegible" resp="#MURP" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> ſhall examine you briefly about the part
+<pb n="7" facs="tcp:152859:4"/>of this deſcription, and firſt tell me,</hi> God <gap reason="illegible" resp="#MURP" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> a Being wholly ſpiritual,
+<note place="margin">Spirit.</note> 
+               <hi>what mean <gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ou by that?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> I mean, that he hath <hi>no fleſh and <gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ones,</hi> as I have, <hi>nor can he be ſeen or <gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>erceived by bodily ſenſe;</hi> nor can I <hi>make</hi> or <hi>imagine any thing like him,</hi> but my beſt conception of his <hi>nature</hi> is that which I have of <hi>a ſpirit.</hi>
+            </p>
+            <p>Q. <hi>Why, what do you conceive a</hi> Spirit <hi>to be?</hi>
+            </p>
+            <p>
+               <hi>A. A being endued with underſtand<g ref="char:EOLhyphen"/>ing will, and active power.</hi>
+            </p>
+            <p>Q. <hi>But</hi> whence <hi>do you gather, that</hi> God is, <hi>ſince your</hi> ſenſes <hi>are not able to</hi> ſhew <hi>him unto you?</hi>
+            </p>
+            <p>
+               <hi>A.</hi>
+               <note place="margin">Being.</note> From thoſe <hi>ſenſible effects</hi> of his <hi>inviſible being,</hi> which could never be <hi>without him,</hi> and have produced <hi>in all mens conſciences</hi> [not monſtrouſly de<g ref="char:EOLhyphen"/>praved by <hi>ignorance</hi> and <hi>vice</hi>] the <hi>like belief</hi> of his <hi>being.</hi> My <hi>ſenſes</hi> give the ſame <hi>witneſs</hi> to the <hi>being of God,</hi> as they do to that of <hi>my own ſoul</hi> or <hi>ſpirit.</hi>
+            </p>
+            <p>Q. <hi>Well, you have acknowledged a</hi> God, <hi>and told me that</hi> he <hi>is a</hi> Spirit; <hi>what learn you</hi> hence?</p>
+            <p>
+               <hi>A.</hi> I learn from this confeſſion, that I am bound to <hi>worſhip him,</hi> and to wor<g ref="char:EOLhyphen"/>ſhip
+<pb n="8" facs="tcp:152859:5"/>him <hi>in and with my ſpirit,</hi> as we as <hi>outward man,</hi> and that it is not <hi>law<g ref="char:EOLhyphen"/>ful</hi> [being not <hi>poſſible</hi> indeed] to fram a <hi>picture</hi> or <hi>bodily image</hi> of him.</p>
+            <p>Q. <hi>You have ſatisfied me in ſome mea<g ref="char:EOLhyphen"/>ſure about the</hi> divine nature, <hi>I now com<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> to enquire into</hi> thoſe excellent properties <hi>which you aſcribed unto</hi> God, <hi>the better to difference and distinguiſh</hi> him <hi>from</hi> others ſpirits, <hi>and</hi> firſt <hi>you ſaid he was</hi> moſt good and gracious;
+<note place="margin">Moſt good and graci<g ref="char:EOLhyphen"/>ous.</note> 
+               <hi>What mean you by</hi> that?</p>
+            <p>
+               <hi>A.</hi> I mean that he is moſt <hi>freely rea<g ref="char:EOLhyphen"/>dy</hi> to do <hi>all acts</hi> of <hi>goodneſs, compaſſion, mercy</hi> and <hi>love.</hi>
+            </p>
+            <p>Q. <hi>What learn you</hi> hence?</p>
+            <p>
+               <hi>A.</hi> I learn to <hi>expect</hi> from his <hi>grace</hi> and <hi>bounty,</hi> whatſoever is either <hi>needful</hi> or <hi>convenient</hi> for me.</p>
+            <p>Q. <hi>You ſaid</hi> ſecondly, God <hi>was</hi> moſt holy;
+<note place="margin">Moſt holy.</note> 
+               <hi>What mean you by that?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> I mean, that he is altogether <hi>ſepa<g ref="char:EOLhyphen"/>rate from</hi> ſin [without ſin] and <hi>univer<g ref="char:EOLhyphen"/>ſally righteous;</hi> an <hi>hater of ſin</hi> and <hi>lover of righteouſneſs,</hi> ſo that he neither <hi>can</hi> or <hi>will</hi> do any <hi>evil</hi> himſelf, nor <hi>approve</hi> it in any other.</p>
+            <p>Q. <hi>What learn you</hi> hence?</p>
+            <p>
+               <hi>A.</hi> I learn, never to imagine, that his
+<pb n="9" facs="tcp:152859:5"/>
+               <hi>Grace</hi> will <hi>allow</hi> or <hi>countenance</hi> me in <hi>ſin;</hi> and never to hope, that I ſhall <hi>pleaſe him</hi> without <hi>holineſs.</hi>
+            </p>
+            <p>Q. <hi>You ſaid</hi> thirdly,
+<note place="margin">Moſt Wiſe.</note> God <hi>was</hi> moſt wiſe; <hi>What mean you by</hi> that?</p>
+            <p>
+               <hi>A.</hi> I mean that he hath a complete <hi>knowledge</hi> of all things, and <hi>skill</hi> to do all things according thereto.</p>
+            <p>Q. <hi>What learn you</hi> hence?</p>
+            <p>
+               <hi>A.</hi> To do all things as <hi>in his ſight,</hi> who <hi>knoweth all things,</hi> and <hi>begging direction from him</hi> to reſt <hi>ſatisfied</hi> with his <hi>wiſe diſpoſal</hi> in all things.</p>
+            <p>Q. <hi>You ſaid</hi> fourthly,
+<note place="margin">Moſt Pow<g ref="char:EOLhyphen"/>erful</note> God <hi>was</hi> moſt powerful; <hi>What mean you by that?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> I mean, that he is <hi>Almighty,</hi> and can do <hi>all things that agree with his wiſ<g ref="char:EOLhyphen"/>dom and holineſs,</hi> all things <hi>the doing whereof importeth any thing of goodneſs or perfection; whatſoever</hi> he <hi>will</hi> and <hi>how</hi> he will, nay <hi>more than he wills</hi> to do or hath yet <hi>actually done.</hi>
+            </p>
+            <p>Q. <hi>What learn you</hi> hence?</p>
+            <p>
+               <hi>A.</hi> I learn to <hi>truſt and fear</hi> him <hi>above all creatures</hi> [good Angels, Devils, or Men] which are <hi>at his beck</hi> and <hi>ſubject to his power,</hi> being confident that which he hath <hi>promiſed</hi> or <hi>threatned</hi> ſhall be <hi>certainly fulfilled,</hi> though it ſeem <hi>impoſ<g ref="char:EOLhyphen"/>ſible</hi>
+               <pb n="10" facs="tcp:152859:6"/>to fleſh and blood.</p>
+            <p>Q.
+<note place="margin">Eternal.</note> 
+               <hi>You ſaid</hi> fifthly, God <hi>was</hi> eternal, <hi>what mean you by that?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> I mean, that he hath neither <hi>be<g ref="char:EOLhyphen"/>ginning</hi> of being nor <hi>end</hi> of continu<g ref="char:EOLhyphen"/>ance.</p>
+            <p>Q. <hi>What learn you from</hi> hence?</p>
+            <p>
+               <hi>A.</hi> I learn to <hi>reverence</hi> him as the moſt <hi>Ancient of dayes,</hi> and <hi>the onely author of eternal rewards</hi> or <hi>puniſhments.</hi>
+            </p>
+            <p>Q.
+<note place="margin">Infinite in all perfecti<g ref="char:EOLhyphen"/>ons.</note> 
+               <hi>You added</hi> laſtly, God <hi>was</hi> infinite in all perfections; <hi>What mean you by that?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> I mean, that <hi>no imperfection</hi> ought at any time to be aſcribed unto him or affirmed of him, but all <hi>perfections</hi> in the <hi>higheſt degree</hi> we can conceive of, and beyond what we can conceive <hi>without meaſure or limits.</hi>
+            </p>
+            <p>Q. <hi>What learn you</hi> hence?</p>
+            <p>
+               <hi>A.</hi> Never to admit any <hi>low</hi> or <hi>unwor<g ref="char:EOLhyphen"/>thy thoughts</hi> of <hi>God,</hi> and when I have the <hi>higheſt,</hi> then to remember, <hi>I know him beſt, when I admire him moſt devoutly.</hi>
+            </p>
+            <p>Q.
+<note place="margin">The end for which God made us.</note> 
+               <hi>You have already told me, you were made, and that God was your maker, whom you have well deſcribed to me; Tell me now further,</hi> for what end did God make you?</p>
+            <pb n="11" facs="tcp:152859:6"/>
+            <p>
+               <hi>A.</hi> That by <hi>faithful ſervice</hi> to him I might be <hi>happy</hi> in the enjoyment of his <hi>preſence</hi> and <hi>favour.</hi>
+            </p>
+            <p>Q. <hi>What learn you</hi> hence?</p>
+            <p>
+               <hi>A.</hi> Carefully to perform my <hi>duty</hi> to<g ref="char:EOLhyphen"/>wards him, and never to ſeek <hi>happineſs,</hi> in <hi>worldly pleaſures</hi> or <hi>profits,</hi> or <hi>any thing below</hi> or <hi>without</hi> him.</p>
+            <p>Q <hi>You were made, you ſay,</hi>
+               <note place="margin">Our chief rule in or<g ref="char:EOLhyphen"/>der to that end, H. Scripture.</note> 
+               <hi>to ſerve God, but</hi> how will he be ſerved?</p>
+            <p>
+               <hi>A.</hi> According to <hi>his will, revealed</hi> principally in the <hi>Holy Scriptures,</hi> which are the <hi>Word of God,</hi> [that is the decla<g ref="char:EOLhyphen"/>ration of his mind] and contain in them all thoſe <hi>ſupernatural truths</hi> we are <hi>obli<g ref="char:EOLhyphen"/>ged</hi> to <hi>know, believe,</hi> and <hi>practiſe</hi> in order to <hi>eternal happineſs.</hi>
+            </p>
+            <p>Q. <hi>Why believe you the</hi> Holy Scrip<g ref="char:EOLhyphen"/>tures <hi>of the</hi> Old <hi>and</hi> New Teſtament <hi>to be the</hi> Word <hi>of</hi> God, <hi>that is, as you intimated, the</hi> inſpired and infallible re<g ref="char:EOLhyphen"/>velation of his mind and will?</p>
+            <p>
+               <hi>A. The agreeing teſtimony of the Church of God firſt recommends them un<g ref="char:EOLhyphen"/>to me for ſuch,</hi> which I have no <hi>reaſon</hi> to <hi>gainſay, oppoſe,</hi> or <hi>doubt</hi> of, but on the contrary <hi>much reaſon</hi> to give <hi>credit</hi> to: and <hi>Then the incomparable excellen<g ref="char:EOLhyphen"/>cy and harmony of the truths therein re<g ref="char:EOLhyphen"/>vealed
+<pb n="12" facs="tcp:152859:7"/>confirm me in this good belief; which motives laſtly, by the inward opera<g ref="char:EOLhyphen"/>tion of the ſacred ſpirit, grow up into the certainty and aſſurance of divine perſwa<g ref="char:EOLhyphen"/>ſion.</hi>
+            </p>
+            <p>Q. <hi>What learn you from</hi> hence?</p>
+            <p>
+               <hi>A.</hi> I learn thankfully to <hi>embrace</hi> and <hi>value</hi> them <hi>as ſuch,</hi> and with <hi>reverence, fidelity, care</hi> and <hi>diligence,</hi> to <hi>read, ſearch, ſtudy, apply,</hi> and <hi>improve</hi> them accord<g ref="char:EOLhyphen"/>ingly.</p>
+            <p>Q. <hi>That I may perceive your profici<g ref="char:EOLhyphen"/>ency in the peruſal of theſe ſacred Oracles, let me hear what they teach you concern<g ref="char:EOLhyphen"/>ing</hi> Man, <hi>which you have not</hi> yet <hi>told me of.</hi>
+            </p>
+            <p>
+               <hi>A.</hi>
+               <note place="margin">The Scrip<g ref="char:EOLhyphen"/>ture ac<g ref="char:EOLhyphen"/>count of man's pri<g ref="char:EOLhyphen"/>mitive e<g ref="char:EOLhyphen"/>ſtate by cre<g ref="char:EOLhyphen"/>ation.</note> They do in the <hi>firſt place</hi> give the <hi>hiſtory</hi> of the <hi>Creation</hi> of the World by <hi>God</hi> in the ſpace of <hi>ſix dayes out</hi> of <hi>no<g ref="char:EOLhyphen"/>thing,</hi> and therein of <hi>Adam the firſt man.</hi>
+            </p>
+            <p>Q. <hi>How was</hi> Adam <hi>the</hi> firſt man <hi>cre<g ref="char:EOLhyphen"/>ated?</hi>
+            </p>
+            <p>
+               <hi>A. God</hi> made him <hi>upright</hi> in his <hi>own image and likeneſs,</hi> and placed him in <hi>Paradiſe,</hi> as <hi>Lord over the Creation.</hi>
+            </p>
+            <p>Q. <hi>What learn you</hi> hence?</p>
+            <p>
+               <hi>A.</hi> To <hi>admire God's Wiſdom, Power</hi> and <hi>Goodneſs,</hi> in <hi>making</hi> the <hi>World</hi> and
+<pb n="13" facs="tcp:152859:7"/>
+               <hi>Man</hi> in it, in ſuch an <hi>excellent eſtate.</hi>
+            </p>
+            <p>Q.
+<note place="margin">Of man's fall by ſin.</note> 
+               <hi>Did Adam always</hi> continue <hi>in the</hi> happy eſtate <hi>wherein</hi> God made <hi>him?</hi>
+            </p>
+            <p>
+               <hi>A. No:</hi> he groſly <hi>diſobeyed God's command</hi> in eating the <hi>forbidden fruit</hi> [as is more largely declared in the book of <hi>Geneſis</hi>] and ſo fell from it by his <hi>voluntary diſobedience.</hi>
+            </p>
+            <p>Q. <hi>What learn you</hi> hence?</p>
+            <p>
+               <hi>A. Never to charge God fooliſhly with man's ſin,</hi> but condemn <hi>him onely,</hi> whoſe <hi>misbehaviour</hi> was <hi>unworthy towards God,</hi> and <hi>cruel</hi> both to <hi>himſelf</hi> and his <hi>poſte<g ref="char:EOLhyphen"/>rity.</hi>
+            </p>
+            <p>Q. <hi>What was the ſtate into which he fell?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> A ſtate of <hi>ſin</hi> and <hi>miſery.</hi>
+            </p>
+            <p>Q. <hi>And what, I pray, is the</hi> condi<g ref="char:EOLhyphen"/>tion <hi>wherein</hi> you, <hi>and the</hi> reſt of his po<g ref="char:EOLhyphen"/>ſterity <hi>are left by him?</hi>
+            </p>
+            <p>
+               <hi>A. Mine</hi> and <hi>every man's</hi> [natural<g ref="char:EOLhyphen"/>ly deſcended from him] is the <hi>ſame.</hi> The <hi>covenant</hi> being <hi>broken,</hi> which gave aſſurance of <hi>immortal life</hi> and <hi>bliſs, we are under the ſame curſe;</hi> and we find within our ſelves <hi>luſt conceiving</hi> and <hi>bringing forth ſin,</hi> which <hi>finiſhed</hi> bring<g ref="char:EOLhyphen"/>eth forth <hi>death.</hi>
+            </p>
+            <pb n="14" facs="tcp:152859:8"/>
+            <p>Q. <hi>What learn you</hi> hence?</p>
+            <p>
+               <hi>A.</hi> I learn to <hi>bewail</hi> this <hi>ſad</hi> and <hi>la<g ref="char:EOLhyphen"/>mentable condition,</hi> into which I am plunged, and from which I am <hi>not able</hi> to deliver my ſelf.</p>
+            <p>Q. <hi>O</hi> wretched man <hi>that thou art,</hi> who can, <hi>or</hi> will deliver thee?</p>
+            <p>
+               <hi>A.</hi>
+               <note place="margin">Of the means of man's reco<g ref="char:EOLhyphen"/>very by Je<g ref="char:EOLhyphen"/>ſus Chriſt.</note> 
+               <hi>I thank God through Jeſus Chriſt,</hi> the <hi>Saviour of the world,</hi> whom <hi>he</hi> out of his <hi>love</hi> to <hi>lapſed</hi> and <hi>loſt man</hi> hath pro<g ref="char:EOLhyphen"/>vided.</p>
+            <p>Q. <hi>Who is this</hi> Jeſus Chriſt the Savi<g ref="char:EOLhyphen"/>our?</p>
+            <p>
+               <hi>A.</hi>
+               <note place="margin">Who he is.</note> 
+               <hi>God and man,</hi> or <hi>God manifeſted in the fleſh.</hi> The <hi>eternal Son of God</hi> be<g ref="char:EOLhyphen"/>fore all time wonderfully <hi>conceived</hi> and <hi>born</hi> of the B. <hi>Virgin Mary</hi> in the <hi>ful<g ref="char:EOLhyphen"/>neſs of time.</hi>
+            </p>
+            <p>Q. <hi>How do you conceive of the</hi> union of the divine and humane nature [<hi>the</hi> Godhead <hi>and</hi> manhood] <hi>in</hi> Chriſt?</p>
+            <p>
+               <hi>A. As the reaſonable ſoul and fleſh is one man, ſo God and man is one Chriſt.</hi>
+            </p>
+            <p>Q. <hi>What learn you</hi> hence?</p>
+            <p>
+               <hi>A.</hi> I learn to be <hi>much encouraged,</hi> notwithſtanding my ſad and deplorable condition, ſince my <hi>Saviour</hi> being both <hi>God</hi> and <hi>man,</hi> is <hi>able</hi> and <hi>willing</hi> to <hi>help</hi> me.</p>
+            <pb n="15" facs="tcp:152859:8"/>
+            <p>Q.
+<note place="margin">What he did.</note> 
+               <hi>What hath</hi> Jeſus Chriſt done for you?</p>
+            <p>
+               <hi>A.</hi> He <hi>perfectly revealed</hi> the <hi>will of God</hi> concerning <hi>man's duty</hi> and <hi>way to happineſs.</hi> He <hi>lived</hi> an <hi>innocent, holy,</hi> and <hi>exemplary,</hi> yet a <hi>miſerable life,</hi> and <hi>died a ſacrifice for our ſins</hi> upon the <hi>croſs;</hi> was <hi>buried</hi> and <hi>continued among the dead till the third day, wherein he aroſe</hi> out of the grave, and [having ſhewed him<g ref="char:EOLhyphen"/>ſelf <hi>alive after his paſſion</hi> by many <hi>infal<g ref="char:EOLhyphen"/>lible proofs forty days</hi> on earth] he <hi>aſcend<g ref="char:EOLhyphen"/>ed viſibly into heaven,</hi> from <hi>whence</hi> he <hi>ſent down</hi> the <hi>Holy Ghoſt</hi> in <hi>cloven tongues as of fire,</hi> upon his <hi>Apoſtles,</hi> and <hi>where</hi> He <hi>ever</hi> lives in <hi>glory</hi> to make <hi>interceſſion</hi> for, and <hi>bleſs</hi> us by turning us from our iniquities, <hi>a royal prieſt for ever after the order of Melchiſedech,</hi> [who was both <hi>King</hi> and <hi>Priest.</hi>]</p>
+            <p>Q. <hi>What learn you</hi> hence?</p>
+            <p>
+               <hi>A.</hi> I learn ſtedfaſtly to <hi>believe</hi> and chearfully to <hi>obey</hi> him; yea, and willing<g ref="char:EOLhyphen"/>ly <hi>to part with every thing for his ſake,</hi> who gave his <hi>life</hi> for me in a <hi>painful, ſhameful,</hi> and <hi>accurſed death,</hi> and is <hi>ſtill mindful</hi> of me in his <hi>Glory.</hi>
+               <note place="margin">What is to be hoped for from &amp; through him.</note>
+            </p>
+            <p>Q. <hi>What</hi> good <hi>do you</hi> hope <hi>for and</hi> expect <hi>from and through</hi> this Saviour?</p>
+            <pb n="16" facs="tcp:152859:9"/>
+            <p>
+               <hi>A.</hi> From and through him I look fo<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap> the <hi>ſupply</hi> of all my <hi>wants,</hi> the <hi>cure</hi> o<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap> all my <hi>griefs,</hi> the <hi>ſatisfaction</hi> of all my <hi>deſires;</hi> eſpecially, the <hi>forgiveneſs</hi> o<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap> my <hi>ſins, reconciliation</hi> to <hi>God's favour ſanctification</hi> of my <hi>corrupted nature,</hi> and <hi>everlaſting ſalvation</hi> and <hi>bleſſedneſs.</hi>
+            </p>
+            <p>Q. <hi>What learn you</hi> hence?</p>
+            <p>
+               <hi>A.</hi> In <hi>no caſe</hi> to entertain any <hi>deſpair<g ref="char:EOLhyphen"/>ing</hi> thoughts.</p>
+            <p>Q.
+<note place="margin">Upon what terms and conditions.</note> 
+               <hi>But, ſince theſe</hi> great things <hi>are not the lot and portion</hi> of all men, how <hi>muſt you addreſs your ſelf to</hi> God, <hi>for</hi> obtaining <hi>the mercies and benefits you hope for by</hi> Jeſus Chriſt?</p>
+            <p>
+               <hi>A.</hi> I muſt <hi>addreſs</hi> my ſelf to <hi>God first</hi> with a deep <hi>ſenſe</hi> of my own <hi>un<g ref="char:EOLhyphen"/>worthineſs,</hi> unfeignedly <hi>repenting</hi> that ever I <hi>ſinned</hi> againſt him: <hi>Secondly,</hi> with a firm <hi>belief</hi> notwithſtanding of his a<g ref="char:EOLhyphen"/>bundant, though <hi>undeſerved goodneſs,</hi> humbly <hi>by faith in Chriſt, depending on, and expecting from his free grace:</hi> And <hi>Thirdly,</hi> with a full purpoſe of heart, <hi>reſolving</hi> and <hi>endeavouring</hi> for the <hi>future</hi> to walk before him <hi>in new<g ref="char:EOLhyphen"/>neſs of life all my days.</hi> That is, <hi>in the poſture of a truly penitent and reforming believer.</hi>
+            </p>
+            <pb n="17" facs="tcp:152859:9"/>
+            <p>Q. <hi>By your anſwer I perceive you grant an</hi> abſolute neceſſity <hi>of</hi> repen<g ref="char:EOLhyphen"/>tance, faith <hi>and</hi> newneſs <hi>of</hi> life, <hi>in all <gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>hat expect</hi> ſaving benefit <hi>from</hi> Chriſt;
+<note place="margin">Repentance</note> firſt, <hi>therefore what is</hi> repentance?</p>
+            <p>
+               <hi>A.</hi> Such a <hi>godly ſorrow for ſin,</hi> as work<g ref="char:EOLhyphen"/>eth <hi>hatred, confeſſion</hi> and <hi>forſaking</hi> of it; that is, what in us lieth the <hi>undoing of the evil we have done.</hi>
+            </p>
+            <p>Q. <hi>What is</hi> faith in Chriſt?
+<note place="margin">Faith in Chriſt.</note>
+            </p>
+            <p>
+               <hi>A.</hi> Such an hearty <hi>perſwaſion</hi> that he is the Saviour, [the Meſſiah foretold and promiſed in the old Teſtament] That <hi>what he hath ſaid,</hi> and <hi>what is ſaid of him</hi> in the <hi>Goſpel</hi> is <hi>true</hi> and <hi>worthy of all acceptation,</hi> as <hi>thereupon</hi> to <hi>embrace his commands, fear his threatnings,</hi> and <hi>truſt him for the performance of all his promiſes.</hi>
+            </p>
+            <p>Q. <hi>Have you no</hi> ſummary <hi>of thoſe</hi> Articles <hi>you are to</hi> profeſs <hi>the</hi> belief <hi>of?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Yes, the <hi>Creed</hi> commonly called the <hi>Apoſtles.</hi>
+            </p>
+            <p>Q. <hi>What is</hi> Newneſs of Life?</p>
+            <p>
+               <hi>A.</hi> It conſiſts in <hi>denying ungodlineſs and worldly luſts,</hi> and <hi>living ſoberly, righteouſly and godlily.</hi>
+            </p>
+            <pb n="18" facs="tcp:152859:10"/>
+            <p>Q. <hi>When may you be ſaid to love</hi> ſo berly?</p>
+            <p>
+               <hi>A.</hi>
+               <note place="margin">Soberly.</note> When in all things I live <hi>tem<g ref="char:EOLhyphen"/>perately</hi> and <hi>chaſtly, moderating</hi> all un<g ref="char:EOLhyphen"/>ruly <hi>paſſions</hi> and <hi>appetites; bridling</hi> my <hi>tongue</hi> and <hi>guarding</hi> my <hi>outward ſen<g ref="char:EOLhyphen"/>ſes.</hi>
+            </p>
+            <p>Q. <hi>When may you be ſaid to live righ<g ref="char:EOLhyphen"/>teouſly?</hi>
+            </p>
+            <p>
+               <hi>A.</hi>
+               <note place="margin">Righteouſly</note> When in all my dealings <hi>I do to others as I would be done by my ſelf,</hi> and <hi>offer not that to another, which, if I were in his place and ſtate, I ſhould cer<g ref="char:EOLhyphen"/>tainly refuſe to ſuffer.</hi>
+            </p>
+            <p>Q. <hi>When may you be ſaid to live</hi> god<g ref="char:EOLhyphen"/>lily?</p>
+            <p>
+               <hi>A.</hi>
+               <note place="margin">Godlily.</note> When in my whole converſation I behave my ſelf towards <hi>God</hi> as my <hi>Creator, preſerver</hi> and <hi>redeemer</hi> in a <hi>ſedu<g ref="char:EOLhyphen"/>lous diſcharge</hi> of the ſeveral and reſpe<g ref="char:EOLhyphen"/>ctive <hi>acts of gratitude, obedience and de<g ref="char:EOLhyphen"/>votion.</hi>
+            </p>
+            <p>Q. <hi>Have you no</hi> ſummary <hi>or</hi> abſtract <hi>of</hi> thoſe laws and commands <hi>which re<g ref="char:EOLhyphen"/>quire and direct you to</hi> this ſober, righte<g ref="char:EOLhyphen"/>ous <hi>and</hi> godly life?</p>
+            <p>
+               <hi>A.</hi> Yes, the <hi>Decalogue,</hi> or <hi>Ten Com<g ref="char:EOLhyphen"/>mandments,</hi> with the <hi>Abridgement</hi> of them in thoſe <hi>two great Commandments;
+<pb n="19" facs="tcp:152859:10"/>Thou ſhalt love the Lord thy God with all thy heart, and ſoul, and ſtrength, and mind,</hi> and <hi>thou ſhalt love thy neighbour as thy ſelf;</hi> and the <hi>ſermon of Chriſt in the mount,</hi> contained in the fifth, ſixth and ſeventh chapters of St. <hi>Matthews Goſpel.</hi>
+            </p>
+            <p>Q. <hi>You told me, I remember, that you muſt reſolve and endeavour to walk before God in newneſs of life</hi> [<hi>all</hi> your dayes] <hi>what mean you by</hi> thoſe laſt words?</p>
+            <p>
+               <hi>A.</hi> I mean,
+<note place="margin">Perſeve<g ref="char:EOLhyphen"/>rance.</note> that I muſt <hi>perſevere</hi> and <hi>hold on in well doing unto the end;</hi> be<g ref="char:EOLhyphen"/>cauſe if I <hi>draw back</hi> and <hi>apoſtatize, God's ſoul will have no pleaſure in me.</hi>
+            </p>
+            <p>Q. <hi>I hope now,</hi>
+               <note place="margin">What help muſt ena<g ref="char:EOLhyphen"/>ble us to diſcharge thoſe con<g ref="char:EOLhyphen"/>ditions.</note> 
+               <hi>you intend to</hi> practiſe <hi>according to all this; but are you able of your ſelf?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> No, <hi>I am not of my ſelf ſufficient to think a good thought.</hi>
+            </p>
+            <p>Q. Who <hi>or</hi> what <hi>then muſt</hi> enable <hi>you?</hi>
+            </p>
+            <p>
+               <hi>A. God's bleſſed and H. Spirit which he hath promiſed to that purpoſe.</hi>
+            </p>
+            <p>Q. <hi>You ſay the H. Spirit muſt enable you; are you then</hi> idly <hi>to ſit still and</hi> do nothing?</p>
+            <p>
+               <hi>A.</hi> No, I am <hi>therefore</hi> to <hi>work out
+<pb n="20" facs="tcp:152859:11"/>my ſalvation with fear and trembling becauſe God worketh in me to will and <gap reason="illegible" resp="#MURP" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> do of his good pleaſure.</hi>
+            </p>
+            <p>Q. <hi>what</hi> means <hi>hath</hi> God <hi>appointe you to make uſe of in order to the</hi> commu<g ref="char:EOLhyphen"/>nication <hi>of his</hi> Grace <hi>and</hi> influence?
+<note place="margin">What means we muſt uſe.</note>
+            </p>
+            <p>
+               <hi>A.</hi> Theſe following: <hi>Firſt, reading hearing</hi> and <hi>meditating</hi> on the <hi>word</hi> o<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <hi>God,</hi> which is <hi>the power of God unto ſalvation. Secondly,</hi> ſerious and fre<g ref="char:EOLhyphen"/>quent <hi>conſideration of my own actions,</hi> and of <hi>all God's providences</hi> to my ſelf and others. <hi>Thirdly, watchfulneſs. Fourthly, Prayer. Fifthly, Religious faſting;</hi> and <hi>Laſtly,</hi> the uſe of the <hi>Holy Sacraments.</hi>
+            </p>
+            <p>Q.
+<note place="margin">Reading of the holy Scriputures.</note> 
+               <hi>VVhat</hi> good Rules <hi>do you obſerve in your</hi> reading of the Word of God, <hi>that you may underſtand it</hi> aright, <hi>and not</hi> wreſt <hi>and</hi> abuſe <hi>it, as many do unto their deſtruction?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> I have learned <hi>ſuch as theſe;</hi> Firſt, not to come <hi>prepoſſeſs'd</hi> and <hi>prejudic'd,</hi> but with <hi>an honeſt deſire</hi> to be <hi>informed thence,</hi> and ſo <hi>take the ſenſe ingenuouſly from the holy Scripture</hi> rather than <hi>bring</hi> and <hi>faſten</hi> any other to it by my own <hi>fancy</hi> and <hi>imagination.</hi> To <hi>read</hi> with an intent to enrich my ſoul with <hi>whol<g ref="char:EOLhyphen"/>ſome</hi> and <hi>divine knowledge</hi> rather than to
+<pb n="21" facs="tcp:152859:11"/>ſtuff my memory with <hi>Scripture-phra<g ref="char:EOLhyphen"/>ſes.</hi> 2. Diligently to conſider of the <hi>ſcope</hi> and <hi>circumſtances</hi> of the ſacred text, the <hi>occaſion</hi> of the diſcourſe, the <hi>coherence</hi> before and after, the <hi>perſons,</hi> the <hi>times, &amp;c.</hi> 3. Heedfully to <hi>compare one place of holy Scripture with another, prophecies</hi> with their <hi>accompliſhments, obſcurer texts</hi> with the more <hi>clear,</hi> and <hi>plain,</hi> and <hi>full;</hi> That which toucheth a matter <hi>incidentally,</hi> and <hi>on the by</hi> with that which handles it <hi>intentionally</hi> and <hi>with deſign;</hi> but <hi>never to ſtrain any ſingle text againſt the manifeſt analogy of the reſt.</hi> 4. So far as I am able to conſult the <hi>original languages,</hi> or take with me the opinion of the <hi>best learned and judi<g ref="char:EOLhyphen"/>cious.</hi> 5. To charge my ſelf with a <hi>conſcientious practice according to the matters that are plain and certain</hi> (as the moſt <hi>neceſſary points</hi> of <hi>faith</hi> and <hi>life</hi>) but where I have not <hi>ſufficient evidence</hi> to continue a while in <hi>ſuſpence</hi> and <hi>doubt,</hi> rather than take up an <hi>opinion</hi> raſhly. <hi>Laſtly,</hi> modeſtly to diſtruſt <hi>my own understanding,</hi> and next to the <hi>holy Scripture it ſelf</hi> to value the <hi>conſentient testimony and authority of the Biſhops and Paſtors of the holy Primitive Church,</hi>
+               <pb n="22" facs="tcp:152859:12"/>and <hi>that Church in particular whereof <gap reason="illegible" resp="#MURP" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> am a member,</hi> as a <hi>guide</hi> and <hi>directio<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </hi> far to be preferr'd before the ſentenc<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap> of <hi>any private man</hi> whatſoever. Thu<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap> am I to <hi>enquire the law of the Priest<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> mouth whoſe lips are to preſerve knowledge</hi> and to have recourſe to <hi>God's Miniſter</hi> (as the <hi>Eunuch</hi> to <hi>Philip</hi> for the reſo<g ref="char:EOLhyphen"/>lution of <hi>doubts</hi> and <hi>ſcruples.</hi>
+            </p>
+            <p>Q.
+<note place="margin">Hearing the Word,</note> 
+               <hi>What inſtructions are you prin<g ref="char:EOLhyphen"/>cipled with about</hi> hearing the Word preached?</p>
+            <p>
+               <hi>A. Such as theſe:</hi> 1. To <hi>ſuſpect their Doctrine who preach without being ſent,</hi> and enter upon that <hi>weighty office</hi> with<g ref="char:EOLhyphen"/>out the <hi>call</hi> and <hi>ordination,</hi> and <hi>licenſe</hi> of the <hi>Governours</hi> of the <hi>Chriſtian Church</hi> impowred thereunto. 2. Dili<g ref="char:EOLhyphen"/>gently to <hi>attend</hi> unto the <hi>ſubſtance</hi> of what is deliver'd rather than to the <hi>per<g ref="char:EOLhyphen"/>ſon;</hi> the <hi>Oratory, Wit,</hi> or <hi>Phraſes.</hi> 3. To attribute ſo much to the <hi>autho<g ref="char:EOLhyphen"/>rity</hi> of <hi>God's Miniſters,</hi> as to give <hi>belief</hi> and <hi>obedience</hi> to their <hi>declarations</hi> and <hi>directions,</hi> where I have not <hi>aſſurance</hi> or <hi>ſtrong grounds</hi> at leaſt, moving me <hi>to the contrary.</hi> 4. Faithfully to <hi>apply</hi> the things ſpoken in the <hi>name of God</hi> un<g ref="char:EOLhyphen"/>to my ſelf, and afterwards to <hi>call them
+<pb n="23" facs="tcp:152859:12"/>again to remembrance,</hi> and <hi>chew upon</hi> them, and <hi>treaſure</hi> them up in mind, that I may <hi>cleanſe my wayes by taking heed unto them accordingly.</hi> And to this purpoſe <hi>Laſtly,</hi> To look upon the <hi>word preached</hi> as <hi>good ſeed ſown</hi> in order to my return of a <hi>proportionable crop,</hi> and therefore to take heed that the <hi>ſoil of my heart</hi> be <hi>prepar'd</hi> aright for the <hi>receiving, rooting</hi> and <hi>cheriſhing</hi> of it un<g ref="char:EOLhyphen"/>til <hi>harveſt.</hi>
+            </p>
+            <p>Q.
+<note place="margin">Conſidera<g ref="char:EOLhyphen"/>tion of our own doings</note> 
+               <hi>What courſe are you to take in the</hi> conſideration of your own doings?</p>
+            <p>
+               <hi>A.</hi> I am <hi>impartially</hi> to <hi>reflect</hi> upon my <hi>thoughts</hi> and <hi>affections, words,</hi> and <hi>wayes;</hi> to lay them to the <hi>rule of God's holy and righteous laws,</hi> and ſo to paſs <hi>cenſure</hi> and <hi>judgement</hi> on them as to their <hi>quality, good</hi> or <hi>evil.</hi>
+            </p>
+            <p>Q.
+<note place="margin">And God's Providen<g ref="char:EOLhyphen"/>ces.</note> 
+               <hi>What is the reſult of your obſer<g ref="char:EOLhyphen"/>vance of</hi> God's Providences <hi>to your ſelf and others?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Not to determine <hi>by them naked<g ref="char:EOLhyphen"/>ly</hi> the <hi>goodneſs</hi> or <hi>badneſs</hi> of <hi>principles</hi> and <hi>practices</hi> which the <hi>rules of right</hi> do not <hi>approve</hi> or <hi>condemn;</hi> but on the <hi>one hand</hi> by <hi>God</hi>'s <hi>mercies</hi> and <hi>benefits</hi> to be provoked to ſerve him with <hi>ala<g ref="char:EOLhyphen"/>crity</hi> and <hi>gladneſs of heart;</hi> and on the
+<pb n="24" facs="tcp:152859:13"/>
+               <hi>other hand</hi> by his <hi>judgements for ſin to</hi> be <hi>deterr'd from it;</hi> and by all his <hi>affli<g ref="char:EOLhyphen"/>ctions</hi> and <hi>chaſtiſements</hi> to be <hi>humble<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> under his rod into a patient ſubmiſſion an<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> reſignation to his dispoſal, mortified to this uncertain and troubleſome world,</hi> and the things thereof, and <hi>fitted for a bet<g ref="char:EOLhyphen"/>ter.</hi>
+            </p>
+            <p>Q.
+<note place="margin">Watchful<g ref="char:EOLhyphen"/>neſs.</note> 
+               <hi>What is Chriſtian watchfulneſs?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> The <hi>keeping of our thoughts in a wakeful poſture,</hi> leſt <hi>temptations</hi> unto ſin <hi>ſurprize</hi> us at any time unawares, or the <hi>good motions</hi> of the <hi>holy Spirit</hi> paſs <hi>unobſerved</hi> and ſo <hi>unimproved</hi> by us.</p>
+            <p>Q.
+<note place="margin">Prayer.</note> 
+               <hi>What is acceptible</hi> Prayer?</p>
+            <p>
+               <hi>A.</hi> The <hi>ſincere</hi> and <hi>fervent utterance</hi> of <hi>good deſires, penitent confeſſions,</hi> and <hi>thankful acknowledgments</hi> to <hi>God</hi> with <hi>faith</hi> and <hi>reverence.</hi>
+            </p>
+            <p>Q. <hi>What</hi> pattern <hi>and</hi> rule <hi>have you to</hi> pray <hi>by?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> That <hi>perfect form of prayer which our bleſſed Saviour taught his diſciples,</hi> called the <hi>Lords Prayer.</hi>
+            </p>
+            <p>Q. <hi>What other</hi> particular direction <hi>have you?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> To offer up my prayers to <hi>God</hi> in the prevailing <hi>name of Jeſus Chriſt,</hi> look<g ref="char:EOLhyphen"/>ing for acceptance through him alone.</p>
+            <pb n="25" facs="tcp:152859:13"/>
+            <p>Q. <hi>But how then is the</hi> Lords Prayer a perfect Form <hi>to you ſince there is</hi> no mention of the name of Jeſus Chriſt in it?</p>
+            <p>
+               <hi>A.</hi> I do moſt <hi>effectually</hi> pray in the <hi>name of Jeſus Chriſt,</hi> when I prefer <hi>thoſe very petitions</hi> to the <hi>Father,</hi> which <hi>He</hi> [my <hi>Advocate</hi>] hath <hi>penned</hi> for me.</p>
+            <p>Q.
+<note place="margin">Faſting.</note> 
+               <hi>What is</hi> Faſting <hi>in the</hi> Religious <hi>ſenſe of the Word?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> The <hi>moderate chaſt<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ing and af<g ref="char:EOLhyphen"/>flicting our ſelves</hi> by <hi>voluntary abſtinence</hi> from <hi>meat</hi> and <hi>drink,</hi> and <hi>bodily plea<g ref="char:EOLhyphen"/>ſures</hi> for <hi>religion ſake.</hi>
+            </p>
+            <p>Q. <hi>Why add you</hi> Faſting <hi>unto</hi> Pray<g ref="char:EOLhyphen"/>er?</p>
+            <p>
+               <hi>A. Firſt,</hi> becauſe it is <hi>a fitting ex<g ref="char:EOLhyphen"/>preſſion</hi> both of our <hi>deep humiliation, [acknowledging our ſelves unworthy to be ſuſtained any longer in life]</hi> and of our <hi>zealous deſires</hi> of the things we ask of God <hi>[preferring them before our daily food:]</hi> and <hi>ſecondly,</hi> becauſe it is alſo a <hi>ſitting means</hi> to <hi>elevate our minds</hi> in Prayer, and to <hi>ſubdue the fleſh unto the Spirit.</hi>
+            </p>
+            <p>Q.
+<note place="margin">The H. Sa<g ref="char:EOLhyphen"/>eraments.</note> 
+               <hi>What mean you by the</hi> Sacra<g ref="char:EOLhyphen"/>ments?</p>
+            <pb n="26" facs="tcp:152859:14"/>
+            <p>
+               <hi>A.</hi> I mean thoſe <hi>two ſacred rites</hi> an<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <hi>ordinances</hi> of the <hi>new Testament, Bap<g ref="char:EOLhyphen"/>tiſm, and the Lords Supper, preſcribe<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </hi> by <hi>Chriſt,</hi> as the <hi>viſible marks and badge of our Chriſtian profeſſion, outward ſign</hi> and <hi>ſeals</hi> of the <hi>Goſpel Covenant,</hi> an<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <hi>real pledges and conveyances</hi> as well a <hi>pertinent</hi> and <hi>ſenſible repreſentations</hi> o<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <hi>spiritual grace,</hi> where they are <hi>order<gap reason="illegible" resp="#MURP" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>
+               </hi> adminiſtered and received.</p>
+            <p>Q.
+<note place="margin">Baptiſm.</note> 
+               <hi>What is</hi> Baptiſm?</p>
+            <p>
+               <hi>A.</hi> The <hi>Inſtitution of Chriſt</hi> for the <hi>firſt admiſſion</hi> of his <hi>diſciples</hi> by <hi>his Mi<g ref="char:EOLhyphen"/>niſters waſhing the party with water in the name of the Father, Son, and Holy Ghoſt.</hi>
+            </p>
+            <p>Q.
+<note place="margin">In the name of the ſacred Trinity.</note> 
+               <hi>What means that phraſe</hi> [in the name] <hi>which I have heard ſome read from the Greek</hi> [into the name of the Father, Son, and Holy Ghoſt?]</p>
+            <p>
+               <hi>A.</hi> Not onely that the <hi>perſon</hi> is <hi>bap<g ref="char:EOLhyphen"/>tized</hi> by <hi>authority,</hi> and <hi>commiſſion</hi> deri<g ref="char:EOLhyphen"/>ved <hi>from</hi> the <hi>Father, Son,</hi> and <hi>Holy Ghoſt,</hi> but <hi>principally</hi> and <hi>chiefly,</hi> that <hi>He is now devoted a diſciple</hi> [and ſo <hi>en<g ref="char:EOLhyphen"/>gaged</hi> to the <hi>perpetual acknowledgment, belief</hi> and <hi>obedience</hi>] of <hi>this ſacred Tri<g ref="char:EOLhyphen"/>nity, God the Father, God the Son, and God the H. Ghoſt,</hi> which <hi>three</hi> are yet but <hi>one God.</hi>
+            </p>
+            <pb n="27" facs="tcp:152859:14"/>
+            <p>Q. <hi>But of</hi> what uſe <hi>may your</hi> Bap<g ref="char:EOLhyphen"/>tiſm <hi>be to you, ſince you was baptized in your</hi> infancy?</p>
+            <p>
+               <hi>A.</hi> Beſides the benefit of <hi>regenera<g ref="char:EOLhyphen"/>ting and preventing grace then received,</hi> [for which <hi>I owe hearty thanks</hi> to <hi>Al<g ref="char:EOLhyphen"/>mighty God</hi>] the <hi>conſideration of it pro<g ref="char:EOLhyphen"/>vokes me to newneſs of life</hi> ſeveral wayes. <hi>Firſt,</hi> becauſe <hi>outward waſhing ſignifies and betokens purity.</hi> Secondly, becauſe <hi>my being baptized in [or into] that bleſſed name, engageth me to own his do<g ref="char:EOLhyphen"/>ctrine, and keep his laws.</hi> Thirdly, when I remember my <hi>Chriſtian name</hi> was <hi>then</hi> given unto me, and that I was <hi>as ſoon</hi> devoted unto <hi>God</hi> as of <hi>any name</hi> in the world, I cannot but deem it a <hi>reproach to my good name ſhould I do o<g ref="char:EOLhyphen"/>therwiſe:</hi> And Laſtly, The <hi>ſolemn vow and promiſe then made by my ſureties,</hi> which I have <hi>ſince</hi> taken upon <hi>my ſelf, re<g ref="char:EOLhyphen"/>quires as much of me.</hi>
+            </p>
+            <p>Q.
+<note place="margin">The Baptiſ<g ref="char:EOLhyphen"/>mal Vow.</note> 
+               <hi>What is that</hi> ſolemn vow and pro<g ref="char:EOLhyphen"/>miſe <hi>you speak of?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> It conſiſts of theſe <hi>three bran<g ref="char:EOLhyphen"/>ches: Firſt,</hi> that I ſhould <hi>renounce</hi> the <hi>Devil</hi> and <hi>all his works,</hi> the <hi>pomps</hi> and <hi>vanity</hi> of <hi>this wicked world,</hi> and all the <hi>ſinful lusts</hi> of the <hi>fleſh.</hi> Secondly, that
+<pb n="28" facs="tcp:152859:15"/>I ſhould <hi>believe all</hi> the <hi>Articles</hi> of the <hi>Chriſtian faith;</hi> And Thirdly, that I ſhould <hi>keep Gods holy will and command<g ref="char:EOLhyphen"/>ments,</hi> and <hi>walk in the ſame all the dayes of my life:</hi> And I am taught, that <hi>the grounded hopes of each adult Chriſtian<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> bleſſedneſs depend upon the ſincere obſer<g ref="char:EOLhyphen"/>vance of theſe three points, which were the expreſs clauſes of his indentures ſealed at his entrance upon the profeſſion of Chri<g ref="char:EOLhyphen"/>ſtianity.</hi>
+            </p>
+            <p>Q.
+<note place="margin">The Lord's Supper.</note> 
+               <hi>What is the</hi> Lords Supper?</p>
+            <p>
+               <hi>A.</hi> It is according to <hi>Chriſts inſtitu<g ref="char:EOLhyphen"/>tion, bread conſecrated, broken and eaten; wine conſecrated, powred forth and drank in an holy Communion for a reſemblance of Chriſt,</hi> whoſe <hi>body</hi> was <hi>broken</hi> with <hi>torments</hi> for us, and <hi>blood ſhed</hi> for the <hi>remiſſion of our ſins.</hi> It is <hi>the Chri<g ref="char:EOLhyphen"/>ſtian Love-feaſt upon the memorials of the ſacrifice of the body and blood of Chriſt.</hi>
+            </p>
+            <p>Q. <hi>What intend you by the word</hi> [con<g ref="char:EOLhyphen"/>ſecrated] <hi>applied to the</hi> Bread <hi>and</hi> Wine?</p>
+            <p>
+               <hi>A.</hi> As much as if I had ſaid, <hi>ſancti<g ref="char:EOLhyphen"/>fied, ſet apart, and bleſſed with prayer, and the words of inſtitution by a perſon ordained thereunto.</hi>
+            </p>
+            <pb n="29" facs="tcp:152859:15"/>
+            <p>Q. <hi>How is</hi> this Sacrament uſeful <hi>to provoke you unto</hi> newneſs of life?</p>
+            <p>
+               <hi>A.</hi> Beſides the <hi>ſecret influence</hi> and <hi>bleſſing</hi> of <hi>God</hi> accompanying of <hi>this Ordinance,</hi> whilſt <hi>the evil of ſin [for which Chriſt died]</hi> and the <hi>love of Chriſt crucified</hi> is <hi>herein ſet before my eyes,</hi> I am <hi>conſtrained to hate ſin</hi> [the <hi>cauſe of his death</hi>] and to <hi>love</hi> and <hi>live</hi> to <hi>him [who died for me]</hi> embracing <hi>all men</hi> with an <hi>hearty charity [for whom he di<g ref="char:EOLhyphen"/>ed</hi>] and <hi>thoſe in particular,</hi> who with me <hi>commemorate his death.</hi>
+            </p>
+            <p>Q. <hi>I pray God, that whenſoever you receive,</hi> you may, <hi>but do</hi> all men <hi>reap</hi> this benefit <hi>thereby?</hi>
+            </p>
+            <p>
+               <hi>A. No, they cannot,</hi> who 1. <hi>un<g ref="char:EOLhyphen"/>derſtand</hi> not the <hi>ends</hi> of <hi>Chriſts death,</hi> and this <hi>memorial</hi> of it; Nor they 2. who <hi>deſire not to enjoy them,</hi> nor they 3. who <hi>prepare not themſelves for coming worthily to the Sacrament.</hi>
+            </p>
+            <p>Q.
+<note place="margin">What pre<g ref="char:EOLhyphen"/>paration re<g ref="char:EOLhyphen"/>quired to it.</note> 
+               <hi>How are you to</hi> prepare <hi>your ſelf for</hi> this Sacrament?</p>
+            <p>
+               <hi>A.</hi> The <hi>Apoſtle St. Paul</hi> ſaith, <hi>Let a man examine himſelf, and ſo let him eat of that bread, and drink of that cup.</hi>
+            </p>
+            <p>Q.
+<note place="margin">Self-exami<g ref="char:EOLhyphen"/>nation.</note> 
+               <hi>What is that</hi> ſelf-examination <hi>re<g ref="char:EOLhyphen"/>commended by the</hi> Apoſtle?</p>
+            <pb n="30" facs="tcp:152859:16"/>
+            <p>
+               <hi>A.</hi> The word imports 1. To <hi>tr<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> and prove;</hi> and 2. <hi>thereupon to allo<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> and approve;</hi> So that every communi<g ref="char:EOLhyphen"/>cant is hereby admoniſhed, beforehand to make a diligent <hi>ſcrutiny and en<g ref="char:EOLhyphen"/>quiry</hi> into <hi>himſelf,</hi> and paſs a <hi>judgmen<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </hi> of <hi>approbation</hi> and <hi>allowance</hi> of him<g ref="char:EOLhyphen"/>ſelf.</p>
+            <p>Q. <hi>But in</hi> what particulars <hi>ought h<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> thus to</hi> examine <hi>himſelf?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> In <hi>theſe two;</hi> 1. as to the com<g ref="char:EOLhyphen"/>mon qualifications of a <hi>Christian;</hi> 2. as to the more immediate qualifica<g ref="char:EOLhyphen"/>tions of a <hi>Communicant;</hi> that is, <hi>Whe<g ref="char:EOLhyphen"/>ther he be a Chriſtian filty diſpoſed for the worthy partaking of this bleſſed Sa<g ref="char:EOLhyphen"/>crament.</hi>
+            </p>
+            <p>Q <hi>What are the</hi> Qualifications <hi>of a</hi> Chriſtian?
+<note place="margin">1. As to the qualificati<g ref="char:EOLhyphen"/>ons of a Chriſtian.</note>
+            </p>
+            <p>
+               <hi>A.</hi> Suppoſing him to be already in<g ref="char:EOLhyphen"/>grafted into <hi>Chriſt,</hi> and admitted into his Church by <hi>Baptiſm,</hi> That which beſpeaks him a <hi>Chriſtian</hi> is 1. Com<g ref="char:EOLhyphen"/>petent <hi>Knowledge,</hi> and 2. <hi>Pious Reſo<g ref="char:EOLhyphen"/>lutions</hi> directed thereby.</p>
+            <p>Q. <hi>What mean you by this</hi> Compe<g ref="char:EOLhyphen"/>tent Knowledge?</p>
+            <p>
+               <hi>A.</hi> I mean the <hi>knowledge</hi> in ſome meaſure of <hi>truths neceſſary to ſalva<g ref="char:EOLhyphen"/>tion,</hi>
+               <pb n="31" facs="tcp:152859:16"/>ſuch as, the <hi>divine commands,</hi> whereby he ought to rule his life; the <hi>Articles of the Chriſtian faith,</hi> which he muſt believe; the <hi>nature, deſign,</hi> and <hi>uſe</hi> of the <hi>Sacraments,</hi> and the way of obtaining divine aid and aſſiſtance by <hi>Prayer,</hi> with the <hi>ſacred vow</hi> upon him to direct his practice accordingly, which are the <hi>main branches</hi> of our <hi>Church Catechiſm.</hi>
+            </p>
+            <p>Q. <hi>What are the</hi> pious reſolutions <hi>you ſpake of?</hi>
+            </p>
+            <p>
+               <hi>A. Such ſincere</hi> and <hi>hearty purpoſes</hi> as are profeſſed by us in anſwer to <hi>that queſtion</hi> of our <hi>Church Catechiſm, Doſt thou not think that thou art bound to believe and do as thy Godfathers and Godmothers promiſed for thee?</hi>
+            </p>
+            <p>Q. <hi>Let me hear how you</hi> paraphraſe <hi>upon</hi> that anſwer, <hi>which you refer me to.</hi>
+            </p>
+            <p>
+               <hi>A. Thus:</hi> I <hi>do verily think and judge, that I am indiſpenſably bound to make good my baptiſmal vow, and I engage by God's help for the performance of it; [ſo I will]</hi> and <hi>this I do,</hi> not as one <hi>conſtrained thereto by any unworthy motives,</hi> but as <hi>ſenſible that this is my great priviledge,</hi> with <hi>thanksgiving to
+<pb n="32" facs="tcp:152859:17"/>our heavenly Father</hi> [that he hath <hi>ca<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <g ref="char:EOLhyphen"/>led me to this state of ſalvation by Jeſ<gap reason="illegible" resp="#MURP" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> Chriſt]</hi> that <hi>he admits me upon ſo equ<gap reason="illegible" resp="#MURP" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> and eaſie terms to the hope and expecta<g ref="char:EOLhyphen"/>tion of eternal bliſs and glory;</hi> and ye<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <hi>knowing how inſufficient I am of m<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> ſelf for the diſcharge of this my vow reſolution and promiſe, I pray unto G<gap reason="illegible" resp="#MURP" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> to give me his grace, that I may con<g ref="char:EOLhyphen"/>tinue in the ſame unto my lifes end.</hi>
+            </p>
+            <p>Q. <hi>I am ſatisfied in the deſcription you have given me of a Chriſtian, by this competent knowledge and pious reſo<g ref="char:EOLhyphen"/>lutions; nor do I know</hi> what more <hi>ca<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> reaſonably be required to beſpeak a ma<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </hi> ſuch <hi>to the</hi> charity <hi>of others than</hi> this profeſſion, <hi>we have been train'd up unto by our</hi> Church Catechiſm; which good profeſſion every one is ſuppoſed pub<g ref="char:EOLhyphen"/>lickly to have made at his confirmati<g ref="char:EOLhyphen"/>on, or at leaſt-wiſe ready and deſirous ſo to do,
+<note place="margin">
+                  <gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>. As to the more im<g ref="char:EOLhyphen"/>mediate qualificati<g ref="char:EOLhyphen"/>ons of a worthy Communi<g ref="char:EOLhyphen"/>cant.</note> before he be admitted to the Holy Communion: <hi>But tell me now,</hi> What are the more immediate qualifi<g ref="char:EOLhyphen"/>cations of a worthy Communicant?</p>
+            <p>
+               <hi>A.</hi> They alſo are <hi>plainly</hi> and <hi>uſe<g ref="char:EOLhyphen"/>fully</hi> ſet down in the <hi>last anſwer</hi> of our <hi>Church Catechiſm</hi> to be theſe four; 1. <hi>A true repentance of all his former
+<pb n="33" facs="tcp:152859:17"/>ſins, with a ſtedfaſt purpoſe to lead a new <gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ife;</hi> that is, <hi>A ſenſe of ſorrow for, con<g ref="char:EOLhyphen"/>feſſion</hi> and <hi>relinquiſhment</hi> of his <hi>moſt be<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>oved ſins,</hi> in order unto which muſt neceſſarily be preſuppoſed <hi>a ſerious com<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>are of his thoughts, affections, words and wayes with Gods commands and laws, that <gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>he may know his ſins, and the aggrava<g ref="char:EOLhyphen"/>tions of them.</hi> 2. <hi>A lively faith in Gods mercy through Chriſt,</hi> viz. <hi>upon the ac<g ref="char:EOLhyphen"/>count of his alſufficient ſacrifice and obla<g ref="char:EOLhyphen"/>tion made for Sin: Faith,</hi> and that Faith <hi>lively,</hi> that is, <hi>active</hi> and <hi>working,</hi> for <hi>faith without works is dead.</hi> 3. <hi>A thank<g ref="char:EOLhyphen"/>ful remembrance of Chriſts death;</hi> of his manifold <hi>ſufferings</hi> for us, and the <hi>love</hi> whence they proceeded, and the <hi>fruits</hi> and <hi>benefits</hi> ariſing to us from and by them, which will enflame <hi>our gra<g ref="char:EOLhyphen"/>titude</hi> to <hi>Chriſt</hi> again. And 4. <hi>Cha<g ref="char:EOLhyphen"/>rity with all men.</hi> Love without diſſimu<g ref="char:EOLhyphen"/>lation: the charity of <hi>forgiveneſs,</hi> where <hi>others</hi> have offended <hi>us;</hi> and ſeeking <hi>reconciliation,</hi> where <hi>we</hi> have offended <hi>others.</hi> The charity of <hi>good will</hi> and <hi>prayer</hi> for our <hi>very enemies,</hi> but much more <hi>brotherly love to thoſe that com<g ref="char:EOLhyphen"/>municate with us,</hi> and the charity of <hi>almes and offerings</hi> for the relief of the
+<pb n="34" facs="tcp:152859:18"/>needs and neceſſities of the poor. <hi>Th<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </hi> are the <hi>graces</hi> which we are eſpecia<gap reason="illegible" resp="#MURP" extent="2 letters">
+                  <desc>••</desc>
+               </gap> to <hi>excite and actuate,</hi> in order to <gap reason="illegible" resp="#MURP" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> 
+               <hi>effectual</hi> and <hi>worthy participation</hi> of t<gap reason="illegible" resp="#MURP" extent="2 letters">
+                  <desc>••</desc>
+               </gap> 
+               <hi>Lords Supper.</hi>
+            </p>
+            <p>Q. <hi>Well, you have run through t<gap reason="illegible" resp="#MURP" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>
+               </hi> chief of thoſe good means <hi>we are to ex<g ref="char:EOLunhyphen"/>pect the</hi> bleſſing <hi>of</hi> God,
+<note place="margin">The danger and penalty of a careleſs and con<g ref="char:EOLhyphen"/>temptuous neglect of theſe means</note> 
+               <hi>and</hi> grace his Spirit <hi>in the</hi> uſe <hi>of, but</hi> what now you ſhould neglect theſe means, and grieve and quench the Spirit?</p>
+            <p>
+               <hi>A.</hi> I ſhew that I wofully <hi>undervalu<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> all</hi> that <hi>Chriſt</hi> hath <hi>done</hi> and <hi>ſuffered</hi> fo<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap> me, and <hi>provoke God</hi> to bring on me <gap reason="illegible" resp="#MURP" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> 
+               <hi>greater meaſure of his wrath</hi> for this my <hi>ingratitude</hi> and <hi>contempt,</hi> than if I had <hi>never</hi> heard of a <hi>Saviour.</hi>
+            </p>
+            <p>Q. <hi>Do you then</hi> believe God <hi>wil<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> bring this</hi> wrath <hi>on</hi> you, <hi>if you</hi> thus <hi>be<g ref="char:EOLhyphen"/>have your ſelf?</hi>
+            </p>
+            <p>
+               <hi>A. Yes,</hi> I verily <hi>believe, God</hi> hath <hi>appointed a day,</hi>
+               <note place="margin">Of future Judgement, Heaven and Hell.</note> 
+               <hi>wherein he will judge the world in righteouſneſs by this very Savi<g ref="char:EOLhyphen"/>our, before whoſe tribunal we muſt all appear, and who will render to every man according to what he hath done in the body whether it be good or evil.</hi>
+            </p>
+            <p>Q. <hi>What ſhall be the</hi> condition <hi>of</hi> all <hi>men</hi> in <hi>and</hi> after <hi>that</hi> great day of judge<g ref="char:EOLhyphen"/>ment?</p>
+            <pb n="35" facs="tcp:152859:18"/>
+            <p>
+               <hi>A. To them who by patient continuance <gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>n well-doing ſeek for glory, God will give <gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ternal life, the heavenly inheritance of <gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ever-ending and unspeakable bliſs; but <gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>o them who obey not the truth and live in enrighteouſneſs, tribulation and anguiſh, indignation and wrath, the worm that di<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>th not, and torments intolerable, the portion of every ſoul that doth evil. Then ſhall the wicked go away into everlaſting puniſhment, but the righteous into life e<g ref="char:EOLhyphen"/>ternal.</hi>
+            </p>
+            <p>Q. <hi>Seeing</hi> we Chriſtians <hi>do</hi> all pro<g ref="char:EOLhyphen"/>feſs <hi>to</hi> believe theſe things,
+<note place="margin">The Con<g ref="char:EOLhyphen"/>cluſion.</note> what man<g ref="char:EOLhyphen"/>ner of perſons ought we to be?</p>
+            <p>
+               <hi>A.</hi> We ought to <hi>live in all holy con<g ref="char:EOLhyphen"/>verſation and godlineſs,</hi> being <hi>diligent</hi> that we may be found of <hi>God</hi> in <hi>peace without spot</hi> and <hi>blameleſs, growing in grace, and in the knowledge of our Lord and Saviour Jeſus Chriſt: To whom with the Father and H. Spirit be glory, as is due, both now and for ever,</hi> Amen, Amen.</p>
+         </div>
+         <div type="Scriptural_quotations">
+            <q>Bleſſed is that Servant whom his Lord when he cometh ſhall find ſo doing, but that ſervant which knew his Lords will and prepared not himſelf, neither did ac<g ref="char:EOLhyphen"/>cording to his will, ſhall be beaten with many ſtripes. <bibl>Luke 12.43, 47.</bibl>
+            </q>
+            <pb n="36" facs="tcp:152859:19"/>
+            <q>The end of the Commandment charity out of a pure heart, and of good conſcience, and of faith unfeigne<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap> from which ſome having ſwerved ha<gap reason="illegible" resp="#MURP" extent="2 letters">
+                  <desc>••</desc>
+               </gap> turned aſide unto vain jangling, <bibl>1 Tim. <gap reason="illegible" resp="#MURP" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> 5, 6.</bibl>
+            </q>
+            <q>This is a faithful ſaying, and the things I will that thou affirm conſtantly that they which have believed in Go<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap> might be careful to maintain goo<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap> works. Theſe things are good and pro<g ref="char:EOLhyphen"/>fitable unto men. But avoid fooliſh que<g ref="char:EOLhyphen"/>ſtions, and genealogies, and contentions and ſtirrings about the law, for they ar<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap> unprofitable and vain. <bibl>Tit. 3.8, 9.</bibl>
+            </q>
+            <q>Who is a wiſe man, and endued with knowledge among you? Let him ſhew out of a good converſation his works with meekneſs of wiſdom. But if you have bitter envying and ſtrife in your hearts, glory not, and lie not againſt the truth. <bibl>James 3.13, 14.</bibl>
+            </q>
+            <q>Let us hold faſt the profeſſion of our faith, without wavering, for he is faith<g ref="char:EOLhyphen"/>ful that hath promiſed, and let us conſi<g ref="char:EOLhyphen"/>der one another to provoke unto love and good works, <bibl>Heb. 10.23, 24.</bibl>
+            </q>
+            <q>Giving all diligence, add to your faith vertue, and to virtue knowledge,
+<pb n="37" facs="tcp:152859:19"/>and to knowledge, temperance; and to <gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>emperance, patience; and to patience, godlineſs; and to godlineſs, brotherly kindneſs; and to brotherly kindneſs, charity: For if theſe things be in you, <gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nd abound, they make you that you ſhall be neither barren nor unfruitful in <gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>he knowledge of our Lord Jeſus Chriſt. But he that lacketh theſe things is blind, and cannot ſee afar off, and hath for got<g ref="char:EOLhyphen"/>ten that he was purged from his old ſins. Wherefore the rather, brethren, give diligence to make your calling and ele<g ref="char:EOLhyphen"/>ction ſure, for if ye do theſe things ye ſhall never fall; for ſo an entrance ſhall be miniſtred to you abundantly into the everlaſting kingdom of our Lord and Saviour Jeſus Chriſt. Wherefore I will not be negligent to put you always in remembrance of theſe things though ye know them, and be ſtabliſhed in the preſent truth. Yea, I think it meet as long as I am in this tabernacle to ſtir you up by putting you in rmembrance, knowing that ſhortly I muſt put off this my tabernacle, even as our Lord Jeſus Chriſt hath ſhewed me. Moreover I will endeavour that you may be able af<g ref="char:EOLhyphen"/>ter my deceaſe to have theſe things al<g ref="char:EOLhyphen"/>ways
+<pb n="38" facs="tcp:152859:20"/>in remembrance, <bibl>2 Pet. 1.5. to <gap reason="illegible" resp="#MURP" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>
+               </bibl>
+            </q>
+            <q>Yet therefore, beloved, ſeeing y<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap> know theſe things before, beware leſ<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap> ye alſo being led away with the erro<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap> of the wicked, fall from your own ſted<g ref="char:EOLhyphen"/>faſtneſs, but grow in grace, and in the knowledge of our Lord and Saviour Je<g ref="char:EOLhyphen"/>ſus Chriſt. To him be glory both now and for ever, <hi>Amen.</hi> 
+               <bibl>ch<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>p. 3.17, 18.</bibl>
+            </q>
+            <q>Little children, let no man deceive you, he that doth righteouſneſs is righ<g ref="char:EOLhyphen"/>teous, even as he is righteous. He that commiteth ſin is of the devil, for the devil ſinneth from the beginning. For this purpoſe the Son of God was mani<g ref="char:EOLhyphen"/>feſt that he might deſtroy the works of the devil. <bibl>1 Joh 3.7, 8.</bibl>
+            </q>
+            <q>The grace of God that bringeth ſal<g ref="char:EOLhyphen"/>vation hath appeared to all men, teach<g ref="char:EOLhyphen"/>ing us that denying ungodlineſs and worldly luſts, we ſhould live ſoberly, rigteouſly and godly in this preſent world, looking for that bleſſed hope, and that glorious appearing of the great God, and our Saviour Jeſus Chriſt, who gave himſelf for us that he might redeem us from all iniquity, and purifie unto himſelf a peculiar people, zealous of good works, <bibl>Tit. 2.11, 14.</bibl>
+            </q>
+            <pb n="39" facs="tcp:152859:20"/>
+            <q>Bleſſed are they that do his commandments, <gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hat they may have right to the tree of life, and may enter in thorow the gates into the City, <bibl>Rev. 22.14.</bibl>
+            </q>
+            <p>PRevent us O Lord in all our doings, with thy moſt gracious favour, and further us with thy continual help, that in all our works begun, con<g ref="char:EOLhyphen"/>tinued and ended in thee, we may glorifie thy holy Name, and finally by thy mercy obtain ever<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>aſting life, through Jeſus Chriſt our Lord. <hi>Amen.</hi>
+            </p>
+            <p>O Almighty Lord and everlaſting God, vouch<g ref="char:EOLhyphen"/>ſafe, we beſeech thee, to direct, ſanctifie, and govern both our hearts and bodies in the ways of thy laws and works of thy command<g ref="char:EOLhyphen"/>ments, that through thy moſt mighty protection both here and ever, we may be preſerved in body and ſoul, through our Lord and Saviour Jeſus Chriſt. <hi>Amen.</hi>
+            </p>
+            <p>ALmighty God who haſt given thine only Son to be unto us both a ſacrifice for ſin, and alſo an example of godly life, give us grace that we may always moſt thankfully receive that his ineſtimable benefit, and alſo daily endeavour to follow the bleſſed ſteps of his moſt holy life, through the ſame Jeſus Chriſt our Lord. <hi>Amen.</hi>
+            </p>
+            <p>ALmighty God, who ſheweſt to them that be in error the light of thy truth, to the intent that they may turn into the way of righteouſneſs; grant unto all them that are admitted into the
+<pb n="38" facs="tcp:152859:21"/>
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb n="39" facs="tcp:152859:21"/>
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb n="40" facs="tcp:152859:22"/>fellowſhip of Chriſts Religion, that they <gap reason="illegible" resp="#MURP" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> eſchew thoſe things that are contrary to <gap reason="illegible" resp="#MURP" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> profeſſion; and follow all ſuch things as a<gap reason="illegible" resp="#MURP" extent="1 chunk">
+                  <desc>…</desc>
+               </gap> 
+               <gap reason="illegible" resp="#MURP" extent="1 chunk">
+                  <desc>…</desc>
+               </gap>
+               <g ref="char:EOLhyphen"/>greeable to the ſame, through our Lord <gap reason="illegible" resp="#MURP" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> Chriſt. <hi>Amen.</hi>
+            </p>
+            <p>BLeſſed Lord, who haſt cauſed all holy S<gap reason="illegible" resp="#MURP" extent="1 chunk">
+                  <desc>…</desc>
+               </gap>
+               <g ref="char:EOLhyphen"/>tures to be written for our learning, g<gap reason="illegible" resp="#MURP" extent="1 chunk">
+                  <desc>…</desc>
+               </gap> that we may in ſuch wiſe hear them, read, <gap reason="illegible" resp="#MURP" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> learn, and inwardly digeſt them, that by pat<gap reason="illegible" resp="#MURP" extent="1 chunk">
+                  <desc>…</desc>
+               </gap> and comfort of thy holy Word, we may emb<gap reason="illegible" resp="#MURP" extent="1 chunk">
+                  <desc>…</desc>
+               </gap> and ever hold faſt the bleſſed hope of everlaſ<gap reason="illegible" resp="#MURP" extent="1 chunk">
+                  <desc>…</desc>
+               </gap> life, which thou haſt given us in our Savi<gap reason="illegible" resp="#MURP" extent="1 chunk">
+                  <desc>…</desc>
+               </gap> Jeſus Chriſt. <hi>Amen.</hi>
+            </p>
+            <trailer>The End.</trailer>
+         </div>
+         <div type="publishers_advertisement">
+            <head>The Stationers Advertiſement to the Reader.</head>
+            <p>THere is a moſt uſeful Tract now in the P<gap reason="illegible" resp="#MURP" extent="1 chunk">
+                  <desc>…</desc>
+               </gap> from the ſame Author, explaining the genu<gap reason="illegible" resp="#MURP" extent="1 chunk">
+                  <desc>…</desc>
+               </gap> meaning and rational equity of that comprehen<gap reason="illegible" resp="#MURP" extent="1 chunk">
+                  <desc>…</desc>
+               </gap> rule of righteouſneſs [Do as you would be done by <gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap> and applying of it to particular ſtates and caſes <gap reason="illegible" resp="#MURP" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> life, in order to the cure of many miſdemeanours pr<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>vailing among us.</p>
+            <p>Newly printed, the third and fourth part of T<gap reason="illegible" resp="#MURP" extent="1 chunk">
+                  <desc>…</desc>
+               </gap> Friendly Debate.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
